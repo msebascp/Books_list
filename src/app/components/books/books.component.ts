@@ -27,7 +27,6 @@ export class BooksComponent {
   ngOnInit(): void {
     this.getAllBooks();
     this.watchlistService.changeStorage();
-    console.log('Books component renderizado');
   }
 
   getAllBooks(): void {

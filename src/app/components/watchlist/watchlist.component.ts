@@ -19,7 +19,6 @@ export class WatchlistComponent {
   ngOnInit(): void {
     this.getAllBooks();
     this.watchlistService.changeStorage();
-    console.log('Watchlist component renderizado');
   }
 
   getAllBooks(): void {

@@ -12,8 +12,4 @@ export class AppComponent {
   changeShowAllBooks(param: boolean): void {
     this.showAllBooks = param;
   }
-
-  ngOnInit() {
-    console.log('App root se renderiza');
-  }
 }
