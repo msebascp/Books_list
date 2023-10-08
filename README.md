@@ -1,27 +1,30 @@
-# BOOKLIST
+# Lista de Libros - Aplicación Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.2.
+## Descripción
 
-## Development server
+Web desarrollada con Angular que muestra una selección de libros de prueba desde un archivo JSON, sin necesidad de una base de datos. Esta aplicación está diseñada como un proyecto de práctica de desarrollo frontend y cuenta con las siguientes características principales:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Visualización de Libros**: La aplicación muestra una lista de libros disponibles junto con su título y autor. Los datos de los libros se obtienen desde un archivo JSON.
 
-## Code scaffolding
+- **Funcionalidad de Watchlist**: Los usuarios pueden agregar o eliminar libros de su lista de futuras lecturas (watchlist). Esto permite a los usuarios llevar un registro de los libros que desean leer en el futuro.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Filtros de Búsqueda**: La aplicación ofrece la capacidad de filtrar los libros por el número de páginas y género.
 
-## Build
+## Uso
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Puedes visitar la web 'https://msebascp.github.io/BOOKS_LIST/' o utilizarla en tu entorno local, para ello sigue estos pasos:
 
-## Running unit tests
+1. **Clona el Repositorio**: Clona este repositorio en tu máquina local utilizando el siguiente comando de git:
+```
+git clone https://github.com/msebascp/BOOKS_LIST.git
+```
+2. **Instala las Dependencias**: Navega hasta el directorio del proyecto y ejecuta el siguiente comando para instalar las dependencias:
+```
+npm install
+```
+3. **Inicia la Aplicación**: Después de que las dependencias se hayan instalado correctamente, inicia la aplicación con el siguiente comando:
+```
+ng serve
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+4. **Accede a la Aplicación**: Abre tu navegador web y visita `http://localhost:4200/`".
