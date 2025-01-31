@@ -12,7 +12,7 @@ Web desarrollada con Angular que muestra una selección de libros de prueba desd
 
 ## Uso
 
-Puedes visitar la web 'https://msebascp.github.io/BOOKS_LIST/' o utilizarla en tu entorno local, para ello sigue estos pasos:
+Puedes visitar la web 'https://msebascp.github.io/Books_list/' o utilizarla en tu entorno local, para ello sigue estos pasos:
 
 1. **Clona el Repositorio**: Clona este repositorio en tu máquina local utilizando el siguiente comando de git:
 ```
